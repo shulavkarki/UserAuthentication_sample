@@ -77,16 +77,17 @@ WSGI_APPLICATION = 'learning_users.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
+
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'userauthen',
-        'USER': 'postgres',
-        'PASSWORD' : 'postgresql',
-        'HOST' : 'shulavkarki-667.postgres.pythonanywhere-services.com',
-        'PORT' : '10667',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+
+
 
 
 # Password validation
