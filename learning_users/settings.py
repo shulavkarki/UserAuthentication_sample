@@ -83,8 +83,8 @@ DATABASES = {
         'NAME': 'userauthen',
         'USER': 'postgres',
         'PASSWORD' : 'postgresql',
-        'HOST' : 'localhost',
-        'PORT' : '5432',
+        'HOST' : 'shulavkarki-667.postgres.pythonanywhere-services.com',
+        'PORT' : '10667',
     }
 }
 
